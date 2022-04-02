@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: billing-app-back-jenkis
-          image: jguerra31/billingapp-backend       
+          image: jguerra31/billing-backend       
           ports:
             - containerPort: 7280
               name: billingappbport
